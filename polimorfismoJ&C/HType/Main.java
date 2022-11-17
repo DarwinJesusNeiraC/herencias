@@ -9,23 +9,15 @@ public class Main {
     PlayStation ps = new PlayStation();
     Xbox xb = new Xbox();
 
-    /*
     System.out.println("PlayStation price: " + ps.priceIGV());
     ps.company();
     System.out.println("PlayStation populary: " + ps.popularityPercentage());
-    */
-    poli(ps);
-    poli(xb);
 
-    /*
+
     System.out.println("Xbox price: " + xb.priceIGV());
     xb.company();
     System.out.println("Xbox populary: " + xb.popularityPercentage());
-    */
+  }
 
-  }
-  public static void poli(Product x){
-    x.company();
-  }
 }
 
